@@ -1,6 +1,12 @@
 <script setup lang="ts">
 import * as XLSX from 'xlsx';
 import { ref, onMounted } from 'vue';
+import SearchView from "@/views/SearchView.vue";
+import SearchBar from "@/components/SearchBar.vue";
+import IconGrid from "@/components/IconGrid.vue";
+import CategoryPanel from "@/components/CategoryPanel.vue";
+import { icons, categories } from '../utils/data'
+import HotPanel from "@/components/HotPanel.vue";
 const tableData = ref([]);
 const tableHeader = ref([]);
 const loadExcel = async () => {
@@ -26,7 +32,18 @@ const loadExcel = async () => {
 </script>
 
 <template>
-  <h1>Excel 数据展示</h1>
+  <div style="padding-left: 100px;padding-right: 100px">
+    <SearchBar/>
+    <HotPanel />
+    <CategoryPanel
+        v-for="(item, index) in categories"
+        :key="index"
+        :title="item.title"
+        :links="item.links"
+    />
+  </div>
+
+<!--  <h1>Excel 数据展示</h1>
   <div class="container">
     <table v-if="tableData.length">
       <thead>
@@ -41,7 +58,7 @@ const loadExcel = async () => {
       </tbody>
     </table>
     <p v-else>正在加载数据...</p>
-  </div>
+  </div>-->
 </template>
 
 <style scoped>

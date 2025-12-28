@@ -1,36 +1,46 @@
 <script setup>
-defineProps({ sites: Array })
+defineProps({ list: Array })
 </script>
 
 <template>
-  <div class="grid">
-    <div
-        v-for="item in sites"
-        :key="item.name"
-        class="grid-item"
-    >
-      <div class="icon">{{ item.icon }}</div>
-      <div class="text">{{ item.name }}</div>
+  <el-card shadow="never"  class="panel">
+    <div class="items">
+      <div
+          v-for="i in list"
+          :key="i.name"
+          class="item"
+      >
+        <div class="icon">{{ i.icon }}</div>
+        <div class="name">{{ i.name }}</div>
+      </div>
     </div>
-  </div>
+  </el-card>
 </template>
 
 <style scoped>
 .grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 90px);
-  gap: 16px;
-  padding: 20px;
-  background: #fff;
+  margin: 12px;
 }
-.grid-item {
+.items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 80px);
+  gap: 16px;
+}
+.item {
   text-align: center;
   cursor: pointer;
 }
 .icon {
-  font-size: 32px;
+  width: 48px;
+  height: 48px;
+  margin: auto;
+  background: #f2f2f2;
+  border-radius: 10px;
+  line-height: 48px;
+  font-weight: bold;
 }
-.text {
-  font-size: 13px;
+.name {
+  font-size: 12px;
+  margin-top: 6px;
 }
 </style>
