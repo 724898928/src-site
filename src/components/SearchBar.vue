@@ -1,27 +1,29 @@
 <template>
-  <el-card shadow="never" class="panel">
-    <div class="topbar">
-      <div class="logo">🌻</div>
-      <el-input
-          :placeholder="placeholder"
-          v-model="query"
-          @keydown="handleKeyDown"
+  <div class="search-container">
+    <el-card shadow="never" class="panel">
+      <div class="topbar">
+        <div class="logo">🌻</div>
+        <el-input
+            :placeholder="placeholder"
+            v-model="query"
+            @keydown="handleKeyDown"
 
-      >
-        <template #prepend>
-          <el-select  v-model="engine" @change="change" default-first-option size="small" style="width: 80px">
-            <el-option
-                v-for="item in options"
-                :key="item.value"
-                :label="item.label"
-                :value="item.value"
-            />
-          </el-select>
-        </template>
-      </el-input>
-      <el-button class="btn" @click="search">搜索</el-button>
-    </div>
-  </el-card>
+        >
+          <template #prepend>
+            <el-select  v-model="engine" @change="change" default-first-option size="small" style="width: 80px">
+              <el-option
+                  v-for="item in options"
+                  :key="item.value"
+                  :label="item.label"
+                  :value="item.value"
+              />
+            </el-select>
+          </template>
+        </el-input>
+        <el-button class="btn" @click="search">搜索</el-button>
+      </div>
+    </el-card>
+  </div>
 </template>
 <script setup lang="ts">
 import {onMounted, ref} from "vue";
@@ -69,13 +71,11 @@ onMounted(()=>{
   font-size: 22px;
   margin-right: 20px;
 }
-.search {
-  flex: 1;
-  padding: 10px;
-  font-size: 14px;
-  border: 1px solid #ddd;
-  border-radius: 6px;
+.search-container {
+  margin: 10px auto;
+  padding: 0 20px;
 }
+
 .btn {
   margin-left: 10px;
   padding: 10px 20px;
