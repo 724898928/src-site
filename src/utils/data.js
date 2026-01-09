@@ -354,5 +354,99 @@ export const categories = [
                 ]
             }
         ]
-    }
+    },
+     {
+        title: '消费社区',
+        name: 'consumer',
+        subCategories: [
+            {
+                title: '购物',
+                items: [
+                    { name: '淘宝特卖', url: 'https://temai.taobao.com/index.htm?pid=mm_125667289_425750202_108408300100' },
+                    { name: '爱购屋', url: 'https://pclxx.yhzu.cn/' },
+                    { name: '苏宁易购', url: 'https://www.suning.com/' },
+                    { name: '京东商城', url: 'https://www.jd.com/?cu=true&utm_source=lianmeng__10__kong&utm_medium=tuiguang&utm_campaign=t_1000757113_&utm_term=a562f30aa3454c5ab248b3a22c500fa7' },
+                    { name: '天猫超市', url: 'https://chaoshi.tmall.com/?user_number_id=725677994&ali_trackid=2%3Amm_125667289_425750202_108408300100%3A1767936519830_557628146_0&union_lens=recoveryid%3A557628146_0%401767936519836&bxsign=tbkvoM2Cg0fnd2qJosXZMff6HQ9i2HV4OmUANOtkBNNtjQqmu9_Aw9kZBTRwpvZ_iVI7g6v_gJOFVaIM-eGicWvMAksiqRIcODSwiJleDBzxagIqrkGNQyNmiM0I7nLYWFclTt04wEEZpdth2dwem4dhQyZ9eGSjLbYqhYg5xXLZiqSb5vlv8PFM9KBS3y7gSe7' },
+                    { name: '1号店', url: 'https://www.yhd.com/' },
+                    { name: '休闲零食', url: 'https://pclxx.yhzu.cn/index.php?r=l&kw=%E4%BC%91%E9%97%B2%E9%9B%B6%E9%A3%9F' },
+                    { name: '拼多多', url: 'https://pinduoduo.com/' },
+                    { name: '唯品会', url: 'https://www.vip.com/' },
+                    { name: '更多>>', url: './more/search.html' }
+                ]
+            },
+            {
+                title: '优惠',
+                items: [
+                    { name: '咚咚抢', url: 'https://pclxx.yhzu.cn/index.php?r=ddq' },
+                    { name: '每日特价', url: 'https://union-click.jd.com/jdc?e=&amp;p=AyIGZRprFDJWWA1FBCVbV0IUWVALHE5fBUUZTFINXAAECUteDEUUTwlNUk9GFkMJQV9KRRAEAlBeTzdRXQYUZkZXA3giVWJufCFgB3Z0ZFoTF1clAhQDUx5TFQMVAmUbWhQDFANTG1sXMiIHVCsQewMiB1MfUxUBEgZcGWsVBhsAUhlfFQEQBlwSaxICGzcOTjUSARsFUhheR1VAUAESayUyETdlK1olAiJYEUYGJQATBlES' },
+                    { name: '淘宝心选', url: 'https://s.click.taobao.com/t?e=m%3D2%26s%3Dfhi%2FRG26h1UcQipKwQzePDAVflQIoZeppRe%2F8jaAHci5VBFTL4hn2chelN6i7gI5DOz%2BQ0BmwbzUsaU8rU7nNwbJJlvQNQKlyzqZLxiz9pKf3NKcgQhe%2Bpvaf1zYRyXlEg%2FgiV8fP%2F5xKmPmpIKZsA%3D%3D' },
+                    { name: '1号团', url: 'http://qianggou.yhd.com/' },
+                    { name: '聚划算', url: 'https://ju.taobao.com/' },
+                    { name: '精选好价', url: 'https://www.smzdm.com/jingxuan/' },
+                    { name: '1.9包邮', url: 'https://mobile.yangkeduo.com/app.html?use_reload=1&launch_url=duo_nine_nine.html%3Fpid%3D9709330_127406837%26cpsSign%3DCM_200205_9709330_127406837_cdc6fbdb75d5f8c0c21a9035ad0ff895%26duoduo_type%3D2' },
+                    { name: '京东秒杀', url: 'https://union-click.jd.com/jdc?e=&p=AyIGZRprFDJWWA1FBCVbV0IUWVALHE5fBUUZTFINXAAECUteDDddXSVwGG5nNngFVX8MGRESLWtnb0YlF1clAhQDUx5TFQMVAmUbWhQDFANTG1sXMiIHVCsQewMiB1MfUxUBEgZcGWsVBhsGXB1aFQsaBVMfaxICGzcOTjUSARsFUhheR1VAUAESayUyETdlK1olAiJYEUYGJQATBlES' },
+                    { name: '更多>>', url: './more/tool.html' }
+                ]
+            },
+            {
+                title: '银行',
+                items: [
+                    { name: '建设银行', url: 'http://www.ccb.com/' },
+                    { name: '邮政银行', url: 'http://www.psbc.com/' },
+                    { name: '工商银行', url: 'http://www.icbc.com.cn/icbc/' },
+                    { name: '农业银行', url: 'http://www.abchina.com/cn/' },
+                    { name: '中国银行', url: 'https://www.boc.cn/' },
+                    { name: '招商银行', url: 'http://www.cmbchina.com/' },
+                    { name: '交通银行', url: 'http://www.bankcomm.com/' },
+                    { name: '广发银行 ', url: 'http://www.cgbchina.com.cn/' },
+                    { name: '更多>>', url: './more/material.html' }
+                ]
+            },
+            {
+                title: '女性',
+                url: './more/girl.html',
+                items: [
+                    { name: '太平洋女性', url: 'https://www.pclady.com.cn/' },
+                    { name: '新浪女性', url: 'http://eladies.sina.com.cn/' },
+                    { name: '小红书', url: 'https://www.xiaohongshu.com/' },
+                    { name: '梦芭莎', url: 'http://www.moonbasa.com/' },
+                    { name: '瑞丽女性', url: 'http://www.rayli.com.cn/' },
+                    { name: 'YOKA时尚', url: 'http://www.yoka.com/' },
+                    { name: '蘑菇街', url: 'https://www.mogujie.com/' },
+                    { name: '爱丽时尚', url: 'http://www.aili.com/' },
+                    { name: '更多>>', url: './more/girl.html' }
+                ]
+            },
+            {
+                title: '交友',
+                url: './more/friend.html',
+                items: [
+                    { name: '世纪佳缘', url: 'http://www.jiayuan.com/' },
+                    { name: '珍爱婚恋网', url: 'http://www.zhenai.com/' },
+                    { name: '百合网', url: 'http://www.baihe.com/' },
+                    { name: '网易花田', url: 'http://love.163.com' },
+                    { name: '同城约会', url: 'http://yuehui.163.com/' },
+                    { name: '知己网', url: 'http://www.zhiji.com/' },
+                    { name: '有缘网', url: 'http://www.youyuan.com/' },
+                    { name: '树洞网', url: 'http://www.6our.com/' },
+                    { name: '更多>>', url: './more/friend.html' }
+                ]
+            },
+            {
+                title: '社区',
+                url: './more/community.html',
+                items: [
+                    { name: '小红书', url: 'https://www.xiaohongshu.com/explore' },
+                    { name: '知乎', url: 'https://www.zhihu.com/' },
+                    { name: 'QQ空间', url: 'https://qzone.qq.com/' },
+                    { name: 'LOFTER', url: 'http://www.lofter.com/' },
+                    { name: '百度贴吧', url: 'https://tieba.baidu.com/' },
+                    { name: '新浪微博', url: 'https://weibo.com/' },
+                    { name: '豆瓣小组', url: 'https://www.douban.com/group/explore' },
+                    { name: '虎扑', url: 'https://www.hupu.com/' },
+                    { name: '更多>>', url: './more/community.html' }
+                ]
+            }
+        ]
+    },
 ];
