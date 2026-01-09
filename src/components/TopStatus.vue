@@ -2,7 +2,7 @@
   <header class="header">
     <div class="header-content">
       <div class="logo">
-        <img src="/favicon.ico" alt="logo">
+        <img src="/dinosaur.png" alt="logo">
       </div>
       <div class="weather">
         <iframe scrolling="no" src="https://widget.tianqiapi.com/?style=tg&skin=sogou&column=3&align=left&paddingtop=10"
@@ -37,7 +37,7 @@
 import { ElMessage } from "element-plus";
 import { computed, onMounted, onUnmounted, ref } from "vue";
 
-// 当前时间
+// 当前时间  dinosaur
 const currentTime = ref(new Date());
 
 // 更新时间的方法
