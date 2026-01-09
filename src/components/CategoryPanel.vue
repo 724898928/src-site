@@ -40,6 +40,7 @@ import { ref } from 'vue'
 import { categories } from '../utils/data'
 // 激活的标签页
 const activeTab = ref('entertainment')
+
 interface IconItem {
   title: string;
   url: string;
@@ -91,7 +92,7 @@ const userDiy = () => {
 }
 
 .sub-category-item {
-  font-size: 12px;
+  font-size: 15px;
   padding: 2px 0;
 }
 </style>

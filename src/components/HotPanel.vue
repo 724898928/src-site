@@ -22,6 +22,7 @@
             :href="site.url"
             target="_blank"
             class="site-item"
+            underline="never"
         >
           <el-image :src="site.icon" class="site-icon" />
           <span>{{ site.name }}</span>
@@ -31,9 +32,9 @@
   </div>
 </template>
 
-<script setup lang="ts" >
+<script setup lang="ts">
 import { ref } from 'vue'
-import {commonSites} from '../utils/data'
+import { commonSites } from '../utils/data'
 
 const activeName = ref()
 const activeSwitch = ref()
@@ -45,32 +46,6 @@ const handleClick = (tab, event) => {
 </script>
 
 <style scoped>
-.block {
-  background: #fff;
-  margin: 16px;
-  padding: 16px;
-}
-h3 {
-  margin-bottom: 12px;
-  color: #409eff;
-}
-.links {
-  display: flex;
-  flex-wrap: wrap;
-}
-.link {
-  width: 120px;
-  line-height: 28px;
-  font-size: 13px;
-  cursor: pointer;
-}
-.link:hover {
-  color: #409eff;
-}
-.quick-links {
-  display: flex;
-  gap: 15px;
-}
 .common-sites {
   max-width: 1200px;
   margin: 0 auto;
@@ -84,20 +59,27 @@ h3 {
   margin-bottom: 20px;
 }
 
+.quick-links {
+  display: flex;
+  gap: 15px;
+}
+
 .common-sites-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-  gap: 15px;
+  grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
 }
 
 .site-item {
   display: flex;
-  flex-direction: column;
+  flex-direction: column;   /* 关键：设置为垂直排列 */
   align-items: center;
-  padding: 10px;
   text-align: center;
   border-radius: 8px;
   transition: all 0.3s;
+  width: 60px;
+  height: 85px;
+  justify-content: center;
+  margin: 0 auto; 
 }
 
 .site-item:hover {
@@ -109,5 +91,30 @@ h3 {
   width: 48px;
   height: 48px;
   margin-bottom: 5px;
+}
+
+::v-deep(.el-link__inner) {
+    flex-direction: column !important;
+}
+
+.el-image {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .category-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .quick-links {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
 }
 </style>
