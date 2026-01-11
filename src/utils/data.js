@@ -52,7 +52,7 @@ export const commonSites = [
     { name: '直播平台', icon: '/svg/huya.svg', url: './more/zhibo.html' },
     { name: '图怪兽', icon: '/svg/dinosaur1.svg', url: 'https://818ps.com/?user_source=r1539021' },
     { name: '传文件', icon: '/svg/chuanshu.svg', url: 'https://www.wenshushu.cn/' },
-    { name: '二维码', icon: '/svg/cli.im.jpg', url: 'https://cli.im/deqr' },
+    { name: '二维码', icon: '/img/cli.im.jpg', url: 'https://cli.im/deqr' },
     { name: 'PPT素材', icon: '/svg/ppt1.svg', url: 'http://www.1ppt.com/' },
     { name: '图片处理', icon: '/svg/image2.svg', url: 'https://www.iloveimg.com/zh-cn' },
     { name: '格式转换', icon: '/svg/pdf.svg', url: 'https://www.alltoall.net/' },
@@ -449,4 +449,120 @@ export const categories = [
             }
         ]
     },
+     {
+        title: '其他分类',
+        name: 'others',
+        subCategories: [
+            {
+                title: '财经',
+                url: './more/money.html',
+                items: [
+                    { name: '界面新闻', url: 'https://www.jiemian.com/' },
+                    { name: '财新', url: 'http://www.caixin.com/' },
+                    { name: '格隆汇', url: 'https://www.gelonghui.com/' },
+                    { name: '雪球', url: 'https://xueqiu.com/' },
+                    { name: '和讯网', url: 'http://www.hexun.com/' },
+                    { name: '英为财情', url: 'https://cn.investing.com/' },
+                    { name: '陆家嘴时报', url: 'https://www.lokatse.com/' },
+                    { name: '华尔街文摘', url: 'https://wsdigest.com/' },
+                    { name: '更多>>', url: './more/money.html' }
+                ]
+            },
+            {
+                title: '汽车',
+                items: [
+                    { name: '易车网', url: 'https://www.1688.com/' },
+                    { name: '汽车之家', url: 'https://www.autohome.com.cn/' },
+                    { name: '爱卡汽车', url: 'https://www.xcar.com.cn/' },
+                    { name: '太平洋汽车', url: 'https://www.pcauto.com.cn/' },
+                    { name: '网易汽车', url: 'https://auto.163.com/' },
+                    { name: '凤凰汽车', url: 'https://auto.ifeng.com/' },
+                    { name: '新浪汽车', url: 'https://auto.sina.com.cn/' },
+                    { name: '更多>>', url: './more/car.html' }
+                ]
+            },
+            {
+                title: '电脑',
+                items: [
+                    { name: '中关村在线', url: 'https://www.zol.com.cn/' },
+                    { name: '太平洋电脑网', url: 'https://www.pconline.com.cn/' },
+                    { name: '驱动之家', url: 'https://www.mydrivers.com/' },
+                    { name: 'IT之家', url: 'https://www.ithome.com/' },
+                    { name: '电脑报', url: 'http://www.dnbcw.com.cn/' },
+                    { name: '电脑爱好者', url: 'http://www.pcpop.com/' },
+                    { name: '笔记本之家', url: 'https://www.pcbaby.com.cn/' },
+                    { name: '更多>>', url: './more/pc.html' }
+                ]
+            },
+            {
+                title: '手机',
+                items: [
+                    { name: '小米手机', url: 'https://www.mi.com/' },
+                    { name: '华为手机', url: 'https://www.huawei.com/' },
+                    { name: '苹果手机', url: 'https://www.apple.com/' },
+                    { name: 'OPPO手机', url: 'https://www.oppo.com/' },
+                    { name: 'vivo手机', url: 'https://www.vivo.com/' },
+                    { name: '三星手机', url: 'https://www.samsung.com/' },
+                    { name: '魅族手机', url: 'https://www.meizu.com/' },
+                    { name: '威锋', url: 'https://www.feng.com/' },
+                    { name: 'CNMO', url: 'http://www.cnmo.com/' },
+                    { name: '手机中国', url: 'http://bbs.cnmo.com/' },
+                    { name: '更多>>', url: './more/phone.html' }
+                ]
+            },
+            {
+                title: '动漫',
+                items: [
+                    { name: '哔哩哔哩动画', url: 'https://www.bilibili.com/' },
+                    { name: '爱动漫', url: 'https://www.idm123.com/' },
+                    { name: '漫画人', url: 'https://www.manhuaren.com/' },
+                    { name: '有妖气', url: 'https://www.u17.com/' },
+                    { name: '腾讯动漫', url: 'https://ac.qq.com/' },
+                    { name: '快看漫画', url: 'https://www.kuaikanmanhua.com/' },
+                    { name: '漫画台', url: 'https://www.mhtai.com/' },
+                    { name: '更多>>', url: './more/dm.html' }
+                ]
+            },
+            {
+                title: '美食',
+                items: [
+                    { name: '下厨房', url: 'https://www.xiachufang.com/' },
+                    { name: '美食杰', url: 'https://www.meishij.net/' },
+                    { name: '豆果美食', url: 'https://www.douguo.com/' },
+                    { name: '好豆网', url: 'https://www.haodou.com/' },
+                    { name: '香哈菜谱', url: 'https://www.xiangha.com/' },
+                    { name: '美食天下', url: 'https://www.meishichina.com/' },
+                    { name: '中华美食网', url: 'http://www.zhms.cn/' },
+                    { name: '更多>>', url: './more/food.html' }
+                ]
+            },
+            {
+                title: '软件',
+                items: [
+                    { name: '太平洋下载', url: 'https://dl.pconline.com.cn/' },
+                    { name: '华军软件园', url: 'https://www.onlinedown.net/' },
+                    { name: 'ZOL软件下载', url: 'https://xiazai.zol.com.cn/' },
+                    { name: '天空下载', url: 'https://www.skycn.com/' },
+                    { name: '非凡软件站', url: 'https://www.crsky.com/' },
+                    { name: '系统之家', url: 'https://www.xitongzhijia.net/' },
+                    { name: '电脑之家下载', url: 'https://dl.chinaz.com/' },
+                    { name: '更多>>', url: './more/soft.html' }
+                ]
+            },
+            {
+                title: '在线工具',
+                items: [
+                    { name: '在线PS', url: 'https://ps.gaoding.com/#/' },
+                    { name: '图片压缩', url: 'https://tinify.cn/' },
+                    { name: '格式转换', url: 'https://www.zamzar.com/cn/' },
+                    { name: 'PDF工具', url: 'https://www.ilovepdf.com/zh-cn' },
+                    { name: '二维码生成', url: 'https://cli.im/' },
+                    { name: '在线翻译', url: 'https://fanyi.baidu.com/' },
+                    { name: '音频剪辑', url: 'https://www.audiotrimmer.com/zh/' },
+                    { name: '更多>>', url: './more/online-tools.html' }
+                ]   
+            }
+        ]
+    },
+     
 ];
