@@ -1,0 +1,7 @@
+name = "src-site"
+compatibility_date = "2026-01-12"
+account_id = "e7197782db51098dab7642ed54cec310"
+#main = "src/index.js"  # Entry point for your Worker script
+assets = { directory = "./dist" }  # Directory for static assets
+[site]
+bucket = "./dist"  # Directory containing your static assets
