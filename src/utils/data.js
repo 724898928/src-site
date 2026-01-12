@@ -74,7 +74,6 @@ export const categories = [
             {
                 title: '视频',
                 items: [
-                    { name: '视频', url: './more/video.html?version=20250616' },
                     { name: '优酷视频', url: 'https://www.youku.com/' },
                     { name: '腾讯视频', url: 'https://v.qq.com/' },
                     { name: '爱奇艺', url: 'https://www.iqiyi.com/' },
@@ -89,7 +88,6 @@ export const categories = [
             {
                 title: '游戏',
                 items: [
-                    { name: '游戏', url: './more/game.html' },
                     { name: '游侠网', url: 'https://www.ali213.net/' },
                     { name: '游民星空', url: 'https://www.gamersky.com/' },
                     { name: '3DM游戏', url: 'https://www.3dmgame.com/' },
@@ -104,7 +102,6 @@ export const categories = [
             {
                 title: '阅读',
                 items: [
-                    { name: '阅读', url: './more/book.html' },
                     { name: '七猫中文', url: 'https://www.qimao.com/' },
                     { name: '知轩藏书', url: 'https://zxcs.zip/' },
                     { name: '69书吧', url: 'https://69shuba.cx/' },
@@ -119,7 +116,6 @@ export const categories = [
             {
                 title: '新闻',
                 items: [
-                    { name: '新闻', url: './more/news.html' },
                     { name: '新浪新闻', url: 'https://news.sina.com.cn/' },
                     { name: '搜狐新闻', url: 'https://news.sohu.com/' },
                     { name: '网易新闻', url: 'https://news.163.com/' },
@@ -134,7 +130,6 @@ export const categories = [
             {
                 title: '军事',
                 items: [
-                    { name: '军事', url: './more/military.html' },
                     { name: '中华军事', url: 'https://military.china.com/' },
                     { name: '环球军事', url: 'https://mil.huanqiu.com/' },
                     { name: '新浪军事', url: 'https://mil.news.sina.com.cn/' },
@@ -149,7 +144,6 @@ export const categories = [
             {
                 title: '音乐',
                 items: [
-                    { name: '音乐', url: './more/music.html' },
                     { name: 'YesPlayMusic', url: 'https://music.qier222.com/' },
                     { name: 'MyFree', url: 'https://tool.liumingye.cn/music/' },
                     { name: '千千音乐', url: 'https://music.91q.com/' },
@@ -170,7 +164,6 @@ export const categories = [
             {
                 title: '搜索',
                 items: [
-                    { name: '搜索', url: './more/search.html' },
                     { name: '极客搜索', url: 'https://s.geekbang.org/' },
                     { name: '文献搜索', url: 'http://459.org/' },
                     { name: '联合搜索', url: 'https://www.gobaidugle.com/' },
@@ -185,7 +178,6 @@ export const categories = [
             {
                 title: '工具',
                 items: [
-                    { name: '工具', url: './more/tool.html' },
                     { name: '图片压缩', url: 'https://tinify.cn/' },
                     { name: '帮小忙', url: 'https://tool.browser.qq.com/' },
                     { name: '站长工具', url: 'https://tool.chinaz.com/' },
@@ -200,7 +192,6 @@ export const categories = [
             {
                 title: '素材',
                 items: [
-                    { name: '素材', url: './more/material.html' },
                     { name: '觅元素', url: 'http://www.51yuansu.com/' },
                     { name: '花瓣', url: 'https://huaban.com/discovery' },
                     { name: '88ICON', url: 'https://88icon.com/' },
@@ -215,7 +206,6 @@ export const categories = [
             {
                 title: '学习',
                 items: [
-                    { name: '学习', url: './more/study.html' },
                     { name: '网易云课堂', url: 'https://study.163.com/' },
                     { name: '终身教育', url: 'https://le.ouchn.cn/home' },
                     { name: '极客时间', url: 'https://time.geekbang.org/' },
@@ -230,7 +220,6 @@ export const categories = [
             {
                 title: '科技',
                 items: [
-                    { name: '科技', url: './more/internet.html' },
                     { name: '果核', url: 'https://www.guokr.com/' },
                     { name: '数字尾巴', url: 'https://www.dgtle.com/' },
                     { name: '36氪', url: 'https://36kr.com/' },
@@ -245,7 +234,6 @@ export const categories = [
             {
                 title: '开发',
                 items: [
-                    { name: '开发', url: './more/it.html' },
                     { name: 'Github', url: 'https://github.com/' },
                     { name: '码云Gitee', url: 'https://gitee.com/' },
                     { name: 'Dev文档', url: 'https://www.docs4dev.com/' },
@@ -266,7 +254,6 @@ export const categories = [
             {
                 title: '体育',
                 items: [
-                    { name: '体育', url: './more/sports.html' },
                     { name: 'NBA', url: 'https://china.nba.com/' },
                     { name: '东方体育', url: 'https://sports.eastday.com/' },
                     { name: '虎扑', url: 'https://www.hupu.com/' },
@@ -281,7 +268,6 @@ export const categories = [
             {
                 title: '出行',
                 items: [
-                    { name: '出行', url: './more/go.html' },
                     { name: '虚拟旅游', url: 'http://www.quanjingke.com/' },
                     { name: '携程旅行', url: 'https://www.ctrip.com/' },
                     { name: '马蜂窝', url: 'http://www.mafengwo.cn/' },
@@ -296,7 +282,6 @@ export const categories = [
             {
                 title: '工作',
                 items: [
-                    { name: '工作', url: './more/job.html' },
                     { name: '前程无忧', url: 'https://www.51job.com/' },
                     { name: '智联招聘', url: 'https://www.zhaopin.com/' },
                     { name: '猎聘网', url: 'https://www.liepin.com/' },
@@ -311,7 +296,6 @@ export const categories = [
             {
                 title: '健康',
                 items: [
-                    { name: '健康', url: './more/health.html' },
                     { name: '39健康', url: 'http://www.39.net/' },
                     { name: '寻医问药', url: 'http://www.xywy.com/' },
                     { name: '丁香园', url: 'http://www.dxy.cn/' },
@@ -326,7 +310,6 @@ export const categories = [
             {
                 title: '房产',
                 items: [
-                    { name: '房产', url: './more/home.html' },
                     { name: '搜房网', url: 'http://www.sofang.com/' },
                     { name: '安居客', url: 'https://www.anjuke.com/' },
                     { name: '房天下', url: 'https://www.fang.com/' },
@@ -341,7 +324,6 @@ export const categories = [
             {
                 title: '生活',
                 items: [
-                    { name: '生活', url: './more/life.html' },
                     { name: '大众点评', url: 'http://www.dianping.com/' },
                     { name: '口碑', url: 'https://www.koubei.com/' },
                     { name: '赶集网', url: 'https://www.ganji.com/' },
