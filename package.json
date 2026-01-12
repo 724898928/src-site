@@ -12,6 +12,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@cloudflare/kv-asset-handler": "^0.4.1",
     "element-plus": "^2.13.0",
     "pinia": "^3.0.4",
     "vue": "^3.5.25",
