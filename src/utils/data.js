@@ -548,3 +548,20 @@ export const categories = [
     },
      
 ];
+
+
+export const quickLinks = [
+        {
+                title: '音频素材',
+                items: [
+                    { name: '在线PS', url: 'https://ps.gaoding.com/#/' },
+                    { name: '图片压缩', url: 'https://tinify.cn/' },
+                    { name: '格式转换', url: 'https://www.zamzar.com/cn/' },
+                    { name: 'PDF工具', url: 'https://www.ilovepdf.com/zh-cn' },
+                    { name: '二维码生成', url: 'https://cli.im/' },
+                    { name: '在线翻译', url: 'https://fanyi.baidu.com/' },
+                    { name: '音频剪辑', url: 'https://www.audiotrimmer.com/zh/' },
+                    { name: '更多>>', url: './more/online-tools.html' }
+                ]   
+            }
+];

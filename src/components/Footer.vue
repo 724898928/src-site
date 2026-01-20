@@ -42,9 +42,9 @@
 
     <!-- 底部备案信息 -->
     <div class="footer-bottom">
-      <span>© 2025 导航门户</span>
+      <span>© Copyright 2026-2028 导航门户</span>
       <span class="divider">|</span>
-      <span>京ICP备 XXXXXXXX 号</span>
+      <span>LiXin All Rights Reserved</span>
       <span class="divider">|</span>
       <span>仅供学习与资源导航使用</span>
     </div>

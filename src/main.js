@@ -11,6 +11,8 @@ import HomeView from "@/views/HomeView.vue";
 import CategoryView from "@/views/CategoryView.vue";
 import ResourceDetailView from "@/views/ResourceDetailView.vue";
 import SearchView from "@/views/SearchView.vue";
+// 导入Element Plus图标
+import * as ElementPlusIconsVue from '@element-plus/icons-vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -24,6 +26,13 @@ const router = createRouter({
 
 
 const app = createApp(App)
+
+// 注册Element Plus图标
+for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
+  app.component(key, component)
+}
+
+
 const pinia = createPinia()
 app.use(router)
 app.use(pinia)

@@ -19,6 +19,21 @@
   --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
   --vt-c-text-dark-1: var(--vt-c-white);
   --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+  --primary-color: #4a6fa5;      /* 主色调 - 蓝色 */
+  --secondary-color: #6b8cbc;    /* 次要色 - 浅蓝 */
+  --accent-color: #ff6b6b;       /* 强调色 - 红色(下载按钮) */
+  --text-primary: #333333;       /* 主要文字 */
+  --text-secondary: #666666;     /* 次要文字 */
+  --background: #f8f9fa;         /* 背景色 */
+  --card-background: #ffffff;    /* 卡片背景 */
+  --border-color: #e0e0e0;       /* 边框色 */
+  --success-color: #4caf50;      /* 成功色 */
+  --warning-color: #ff9800;      /* 警告色 */
+  
+  /* 分类颜色 */
+  --material-color: #36b37e;     /* 素材区绿色 */
+  --office-color: #6554c0;       /* 办公区紫色 */
+  --drama-color: #ff5630;        /* 短剧区橙色 */
 }
 
 /* semantic color variables for this project */
@@ -83,4 +98,28 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+.resource-card {
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.resource-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.15);
+  border-left: 4px solid var(--primary-color);
+}
+
+.download-btn {
+  background: linear-gradient(135deg, var(--accent-color), #ff8e8e);
+  transition: all 0.3s ease;
+}
+
+.download-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(255, 107, 107, 0.4);
+}
+
+.download-btn:active {
+  transform: scale(0.98);
 }
